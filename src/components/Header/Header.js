@@ -4,7 +4,8 @@ function Header() {
 
     return (
         <div className='header_container'>
-            <h1>Header</h1>
+            <div className='header_logo'>Movies React</div>
+            <div className='header_back_project'><a href="#">Проекты</a></div>
         </div>
 
     );

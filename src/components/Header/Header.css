@@ -1,6 +1,28 @@
 .header_container{
 width: 100%;
-height: 80px;
-background: cornflowerblue;
+height: 70px;
+background: #1A1F38;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0px 3px 10px  rgb(103, 82, 129);
 
+}
+
+
+.header_logo{
+font-family: inherit;
+font-weight: 700;
+font-size: calc(18px + 30 * ((100vw - 320px) / (1920 - 320)));
+line-height: calc(28px + 40 * ((100vw - 320px) / (1920 - 320)));
+margin: 0px 0 0 20px;
+}
+
+.header_back_project{
+    margin: 0px 10px 0px 20px ;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: calc(16px + 12 * ((100vw - 320px) / (1920 - 320)));
+    line-height: calc(28px + 20 * ((100vw - 320px) / (1920 - 320)));
+    color: rgb(255, 255, 255);
 }

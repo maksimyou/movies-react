@@ -4,7 +4,10 @@ function Footer() {
 
     return (
         <div className='footer_container'>
-            <h1>Footer</h1>
+            <div className='footer_contant'>
+                <div className='footer_logo'>Movies React</div>
+                <div className="footer_initial">Ашмарин Максим © {new Date().getFullYear()}</div>
+            </div>
         </div>
 
     );
