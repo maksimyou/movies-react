@@ -39,3 +39,6 @@ export default App;
 {/*https://www.omdbapi.com/?apikey=e060b931&s=Harry%20Potter   строка для поиска по названию фильма   https://www.omdbapi.com/?apikey=e060b931&s=Arrow*/ }
 
 {/*https://www.omdbapi.com/?i=tt0111142&apikey=e060b931&plot=full   если менять название параметра i подгружаются разные фильмы */ }
+
+//https://www.omdbapi.com/?apikey=e060b931&type={params}&s={title}
+

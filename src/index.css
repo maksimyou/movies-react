@@ -87,7 +87,6 @@ meter {
 /*----------------------------------------------------------------------------------------------------*/
 
 body {
-  overflow: hidden;
   height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

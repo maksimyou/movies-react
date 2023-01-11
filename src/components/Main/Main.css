@@ -3,12 +3,14 @@
     color: white;
     display: flex;
     flex-direction: column;
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
 .main_content{
 padding: 0 15px;
-max-width: 1110px;
-margin: 0 auto;
+/*max-width: 1110px;
+margin: 0 auto;*/
 
 }
 
@@ -16,7 +18,7 @@ margin: 0 auto;
 .shearch_header{
     background-color: rgba(196, 196, 196, 0.3);
     border-radius: 10px;
-    padding: 4px 9px;
+    padding: 4px 15px;
     width: calc(280px + 640 * ((100vw - 320px) / (1920 - 320)));
     text-align: left;
     height: calc(38px + 10 * ((100vw - 320px) / (1920 - 320)));
@@ -180,4 +182,58 @@ input[type=radio]:checked ~ .check {
   
   input[type=radio]:checked ~ label{
     color: #8abdff;
+  }
+
+
+
+  .container_movies_react{
+    display: flex;
+    /*margin-left: 15px;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 25px;
+    min-height: 500px;
+  }
+
+  .card_item{
+    width: 300px;
+    border: 2px solid #0b0a0e;
+    box-shadow: 0px 0px 9px #8abdff;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card_poster{}
+
+  .card_title{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 32px;
+    margin: 0 5px;
+  }
+
+  .card_type_years{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  .card_type_years span{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    color: #cb94fb;
+    line-height: 32px;
+  }
+
+
+  .preloader_main{
+    width: calc(300px + 610 * ((100vw - 320px) / (1920 - 320)));
+    overflow: hidden;
+    margin: 20px 5px;
   }
